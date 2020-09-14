@@ -1,0 +1,136 @@
+html {
+    background-image: url(https://st.depositphotos.com/1052079/5024/v/600/depositphotos_50245359-stock-video-technology-background-with-metal-gears.jpg);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    margin-bottom: 2%;
+}
+
+article {
+    float: left;
+    width: 70%;
+}
+
+.out footer {
+    height: 70px;
+    padding: 2% 2%;
+    background-color: #cccccc;
+}
+
+header::after {
+    display: block;
+    content: "";
+    clear: both;
+}
+
+.main_content::after {
+    display: block;
+    content: "";
+    clear: both;
+}
+
+.out {
+    width: 1000px;
+    height: fit-content;
+    background-color: rgb(245, 245, 245);
+    margin: 2% auto;
+    padding: 2%;
+    border: 0.5px solid black;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+}
+
+.logo {
+    float: left;
+    margin: 0 2%;
+    width: 40%;
+}
+
+.info {
+    float: left;
+    width: 20%;
+    margin-left: 36%;
+}
+
+.info ul li {
+    list-style-type: none;
+}
+
+.sidebar {
+    padding: 20px;
+    float: left;
+    width: 20%;
+    margin-right: 20px;
+}
+
+.news {
+    margin-top: 10%;
+}
+
+.sidebar nav h2 {
+    margin-bottom: 10%;
+    font-size: 18px;
+}
+
+.sidebar ul li {
+    list-style-type: none;
+}
+
+.sidebar nav ul {
+    line-height: 180%;
+}
+
+.sidebar nav ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+#navigation a:hover {
+    margin-left: 10px;
+}
+
+article h2 {
+    margin-bottom: 4%;
+}
+
+article p {
+    line-height: 160%;
+    margin-bottom: 3%;
+}
+
+figure {
+    width: 100%;
+    margin-bottom: 4%;
+}
+
+figure img {
+    display: block;
+    width: 50%;
+    margin: 0 auto 2% auto;
+    border: 3px solid #413e3e;
+    border-radius: 10px;
+}
+
+figure figcaption {
+    text-align: center;
+}
+
+#finfo {
+    float: left;
+    width: 100%;
+}
+
+#Yandex {
+    float: right;
+    margin-top: 2%;
+}
+
+#studio {
+    float: left;
+    margin-top: 2%;
+}
